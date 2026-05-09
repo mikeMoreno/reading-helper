@@ -7,4 +7,4 @@ This [userscript](https://en.wikipedia.org/wiki/Userscript) makes various change
 
 So far, this script makes just one change, but more will be added: 
 
-* Every section heading is made into a link. This allows you to bookmark websites at specific locations within the document
+  * Every section heading is made into a link. This allows you to bookmark websites at specific locations within the document
