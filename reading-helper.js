@@ -20,14 +20,17 @@ function createLinksToHeadings(headingType) {
       continue;
     }
 
-    const existingTagId = tag.id;
-
     const newLink = document.createElement("a");
+    newLink.className = "reading-helper-link";
+    newLink.style.color = "inherit";
+    newLink.style.textDecoration = "none";
+
+    const existingTagId = tag.id;
 
     if (existingTagId) {
       newLink.href = `#${existingTagId}`;
     } else {
-      const customId = `${headingType}-${i}`;
+      const customId = `reading-helper-${headingType}-${i + 1}`;
 
       tag.id = customId;
 
