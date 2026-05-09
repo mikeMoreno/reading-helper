@@ -4,7 +4,7 @@
 // @version      1.0.0
 // @description  Makes reading text on websites a more pleasant experience
 // @author       Michael Moreno
-// @homepageURL  todo
+// @homepageURL  https://greasyfork.org/en/scripts/577351-reading-helper
 // @match        http://*/*
 // @match        https://*/*
 // @license      GPL-3.0
