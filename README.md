@@ -3,4 +3,8 @@
 
 # Reading Helper
 
-TBD
+The aim of this userscript is to be a collection of modifications that makes reading texts on websites easier.
+
+So far, this script makes one change to websites: 
+
+    * Every section heading is made into a link. This allows you to bookmark websites at specific locations within the document.
