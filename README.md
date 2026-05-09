@@ -8,3 +8,5 @@ This [userscript](https://en.wikipedia.org/wiki/Userscript) makes various change
 So far, this script makes just one change, but more will be added: 
 
   * Every section heading is made into a link. This allows you to bookmark websites at specific locations within the document
+
+It's available on [Greasy Fork](https://greasyfork.org/en/scripts/577351-reading-helper), or you can copy and paste it right from [Codeberg](https://codeberg.org/michaelmoreno/reading-helper/raw/branch/master/reading-helper.js).
