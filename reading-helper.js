@@ -2,7 +2,7 @@
 // @name         Reading Helper
 // @namespace    http://www.mikesbytes.net/userscripts
 // @version      1.0.0
-// @description  Makes reading websites a more pleasant experience
+// @description  Makes reading text on websites a more pleasant experience
 // @author       Michael Moreno
 // @homepageURL  todo
 // @match        http://*/*
