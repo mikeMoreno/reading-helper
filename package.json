@@ -1,0 +1,30 @@
+{
+  "name": "reading-helper",
+  "version": "1.0.0",
+  "description": "Makes reading websites a more pleasant experience",
+  "license": "GPL-3.0",
+  "author": "Michael Moreno",
+  "type": "module",
+  "main": "reading-helper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://codeberg.org/michaelmoreno/reading-helper.git"
+  },
+  "bugs": {
+    "url": "https://codeberg.org/michaelmoreno/reading-helper/issues"
+  },
+  "homepage": "https://codeberg.org/michaelmoreno/reading-helper#readme",
+  "jest": {
+    "transform": {}
+  },
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "eslint-config-eslint": "^11.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "jest": "^30.3.0",
+    "prettier": "^3.8.3"
+  }
+}
