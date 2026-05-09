@@ -3,8 +3,8 @@
 
 # Reading Helper
 
-The aim of this userscript is to be a collection of modifications that makes reading texts on websites easier.
+This [userscript](https://en.wikipedia.org/wiki/Userscript) makes various changes to websites for making text more pleasant to read.
 
-So far, this script makes one change to websites: 
+So far, this script makes just one change, but more will be added: 
 
     * Every section heading is made into a link. This allows you to bookmark websites at specific locations within the document.
