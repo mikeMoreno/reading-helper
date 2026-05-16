@@ -11,10 +11,10 @@
 // ==/UserScript==
 
 function createLinksToHeadings(headingType) {
-  const h2Tags = document.querySelectorAll(headingType);
+  const headingTags = document.querySelectorAll(headingType);
 
-  for (let i = 0; i < h2Tags.length; i++) {
-    const tag = h2Tags[i];
+  for (let i = 0; i < headingTags.length; i++) {
+    const tag = headingTags[i];
 
     // Header is inside link, move on.
     if (tag.closest("a")) {
