@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Reading Helper
 // @namespace    http://www.mikesbytes.net/userscripts
-// @version      1.0.0
+// @version      1.0.1
 // @description  Makes reading text on websites a more pleasant experience
 // @author       Michael Moreno
 // @homepageURL  https://greasyfork.org/en/scripts/577351-reading-helper
@@ -16,7 +16,13 @@ function createLinksToHeadings(headingType) {
   for (let i = 0; i < h2Tags.length; i++) {
     const tag = h2Tags[i];
 
+    // Header is inside link, move on.
     if (tag.closest("a")) {
+      continue;
+    }
+
+    // Header contains link, move on.
+    if (tag.querySelector("a")) {
       continue;
     }
 
