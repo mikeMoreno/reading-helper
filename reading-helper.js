@@ -22,7 +22,12 @@ function createLinksToHeadings(headingType) {
     }
 
     // Header contains link, move on.
-    if (tag.querySelector("a")) {
+    const childLink = tag.querySelector("a");
+    if (
+      childLink &&
+      childLink.hasAttribute("href") &&
+      childLink.getAttribute("href").trim() !== ""
+    ) {
       continue;
     }
 
