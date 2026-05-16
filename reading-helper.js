@@ -41,7 +41,14 @@ function createLinksToHeadings(headingType) {
     if (existingTagId) {
       newLink.href = `#${existingTagId}`;
     } else {
-      const customId = `reading-helper-${headingType}-${i + 1}`;
+      const tagText = tag.textContent;
+      const cleanedTagText = tagText
+        .replace(/[^a-zA-Z0-9 ]/g, "")
+        .trim()
+        .replaceAll(" ", "-")
+        .toLowerCase();
+
+      const customId = `reading-helper-${headingType}-${i + 1}-${cleanedTagText}`;
 
       tag.id = customId;
 
